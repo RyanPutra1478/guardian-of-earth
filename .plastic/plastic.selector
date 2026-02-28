@@ -1,4 +1,0 @@
-repository "NinuNinu Game/NinuNinu Game@18967944598233@cloud"
-  path "/"
-    br "/main"
-    co "/main"
