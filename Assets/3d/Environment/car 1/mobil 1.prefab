@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2328699324095404358
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 3817d6257334bbb45a96d32768892581, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3817d6257334bbb45a96d32768892581, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3817d6257334bbb45a96d32768892581, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3817d6257334bbb45a96d32768892581, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3817d6257334bbb45a96d32768892581, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3817d6257334bbb45a96d32768892581, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3817d6257334bbb45a96d32768892581, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3817d6257334bbb45a96d32768892581, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3817d6257334bbb45a96d32768892581, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3817d6257334bbb45a96d32768892581, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3817d6257334bbb45a96d32768892581, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3817d6257334bbb45a96d32768892581, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3817d6257334bbb45a96d32768892581, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 3817d6257334bbb45a96d32768892581, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3817d6257334bbb45a96d32768892581, type: 3}
+      propertyPath: m_Name
+      value: mobil 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3817d6257334bbb45a96d32768892581, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1127498764784096989}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3817d6257334bbb45a96d32768892581, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -6573383710686349814}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3817d6257334bbb45a96d32768892581, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2525574397879710769}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3817d6257334bbb45a96d32768892581, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2308335938423871068}
+  m_SourcePrefab: {fileID: 100100000, guid: 3817d6257334bbb45a96d32768892581, type: 3}
+--- !u!1 &3211165917264946199 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3817d6257334bbb45a96d32768892581, type: 3}
+  m_PrefabInstance: {fileID: 2328699324095404358}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1127498764784096989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3211165917264946199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc331ef35f6963844b3494a9c834a59c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NinuNinu.Systems.VehicleController
+  facility: {fileID: -6573383710686349814}
+  bodyRenderer: {fileID: 4003882670672348610}
+  colorPropertyName: _BaseColor
+  smokeEffect: {fileID: 0}
+  moveSpeed: 8
+  leaveSpeedMultiplier: 1.5
+  waitDuration: 15
+  currentWaitTime: 0
+  rotationOffset: {x: 0, y: 180, z: 0}
+  laneReference:
+    spawnPoint: {fileID: 0}
+    stopPoint: {fileID: 0}
+    exitPoint: {fileID: 0}
+    currentVehicle: {fileID: 0}
+--- !u!114 &-6573383710686349814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3211165917264946199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e7ff6458d54e8b4e8fac2d77a58304f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NinuNinu.Systems.BreakableFacility
+  facilityName: sedan
+  facilityType: 3
+  isBroken: 1
+  contaminationIncreasePerSecond: 2
+  repairDuration: 6
+  brokenStatusUI: {fileID: 0}
+  repairParticle: {fileID: 0}
+  onFacilityBroken:
+    m_PersistentCalls:
+      m_Calls: []
+  onFacilityRepaired:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &2525574397879710769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3211165917264946199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef6bfae62c651c5438c1314e142a5b41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NinuNinu.Systems.InteractableItem
+  itemName: Trash
+  promptAction: Interact
+  interactionDuration: 6
+  onInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: -6573383710686349814}
+        m_TargetAssemblyTypeName: NinuNinu.Systems.BreakableFacility, Assembly-CSharp
+        m_MethodName: RepairFacility
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  destroyOnInteract: 1
+  collectEffect: {fileID: 0}
+--- !u!65 &2308335938423871068
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3211165917264946199}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4, y: 3.2690287, z: 6}
+  m_Center: {x: -0.00000011920929, y: 1.6255469, z: 0}
+--- !u!23 &4003882670672348610 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 3817d6257334bbb45a96d32768892581, type: 3}
+  m_PrefabInstance: {fileID: 2328699324095404358}
+  m_PrefabAsset: {fileID: 0}

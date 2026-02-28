@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7929452329682198598
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 52ef53362a18efe4fa29d9d248d1f415, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 52ef53362a18efe4fa29d9d248d1f415, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 52ef53362a18efe4fa29d9d248d1f415, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 52ef53362a18efe4fa29d9d248d1f415, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 52ef53362a18efe4fa29d9d248d1f415, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 52ef53362a18efe4fa29d9d248d1f415, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 52ef53362a18efe4fa29d9d248d1f415, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 52ef53362a18efe4fa29d9d248d1f415, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 52ef53362a18efe4fa29d9d248d1f415, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 52ef53362a18efe4fa29d9d248d1f415, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 52ef53362a18efe4fa29d9d248d1f415, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 52ef53362a18efe4fa29d9d248d1f415, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 52ef53362a18efe4fa29d9d248d1f415, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 52ef53362a18efe4fa29d9d248d1f415, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 52ef53362a18efe4fa29d9d248d1f415, type: 3}
+      propertyPath: m_Name
+      value: sangkar
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 52ef53362a18efe4fa29d9d248d1f415, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -8025455363907280199}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 52ef53362a18efe4fa29d9d248d1f415, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -242297589850418164}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 52ef53362a18efe4fa29d9d248d1f415, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4367299006452047158}
+  m_SourcePrefab: {fileID: 100100000, guid: 52ef53362a18efe4fa29d9d248d1f415, type: 3}
+--- !u!1 &7118637608612453655 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 52ef53362a18efe4fa29d9d248d1f415, type: 3}
+  m_PrefabInstance: {fileID: 7929452329682198598}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &-8025455363907280199
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7118637608612453655}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.49019605, z: 0}
+--- !u!114 &-242297589850418164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7118637608612453655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e7ff6458d54e8b4e8fac2d77a58304f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NinuNinu.Systems.BreakableFacility
+  facilityName: Cage
+  facilityType: 4
+  isBroken: 1
+  contaminationIncreasePerSecond: 0.2
+  repairDuration: 3
+  brokenStatusUI: {fileID: 0}
+  repairParticle: {fileID: 2753542308471531718, guid: c08cc0bd40c043d4180d9cfb0152ef14, type: 3}
+  onFacilityBroken:
+    m_PersistentCalls:
+      m_Calls: []
+  onFacilityRepaired:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &4367299006452047158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7118637608612453655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef6bfae62c651c5438c1314e142a5b41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NinuNinu.Systems.InteractableItem
+  itemName: Cage
+  promptAction: Releasse
+  interactionDuration: 3
+  onInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: -242297589850418164}
+        m_TargetAssemblyTypeName: NinuNinu.Systems.BreakableFacility, Assembly-CSharp
+        m_MethodName: RepairFacility
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  destroyOnInteract: 0
+  collectEffect: {fileID: 0}

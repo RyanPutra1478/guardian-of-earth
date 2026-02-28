@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f99e24c948d4594478af21e268678eab, type: 3}
+  m_Name: Sumatera - Stage 3
+  m_EditorClassIdentifier: Assembly-CSharp::NinuNinu.Systems.DialogueData
+  lines:
+  - characterName: Local Residents
+    side: 1
+    text: '"The pipeline contamination is spreading, Ranger! There are now two leaks
+      threatening the river''s headwaters."'
+  - characterName: Ranger Player
+    side: 0
+    text: '"Two pipes? My workload has doubled. But don''t worry, this river will
+      be clean again soon!"'

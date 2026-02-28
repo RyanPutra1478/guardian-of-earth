@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea491be7971522747906b25471bfe290, type: 3}
+  m_Name: Data_Smatera
+  m_EditorClassIdentifier: Assembly-CSharp::NinuNinu.Systems.IslandData
+  islandName: Sumatera
+  description: 
+  stageScenes:
+  - Sumatera - Stage 1
+  - Sumatera - Stage 2
+  - Sumatera - Stage 3
+  - Sumatera - Stage 4
+  - Sumatera - Stage 5
+  islandIcon: {fileID: -1571846572, guid: f3dd73c9d3184cf4891fbb1f7f466c82, type: 3}

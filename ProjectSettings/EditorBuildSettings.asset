@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Home/MainMenu.unity
+    guid: fa991b1d56082a24293843ab7ab3a999
+  - enabled: 1
+    path: Assets/Scenes/Home/StageSelection.unity
+    guid: b9b35e3c61f34364ca1705ee51422d99
+  - enabled: 1
+    path: Assets/Scenes/Sumatra/Sumatera - Stage 1.unity
+    guid: 73864ae7937ae4747ad482b134ac0a5e
+  - enabled: 1
+    path: Assets/Scenes/Sumatra/Sumatera - Stage 2.unity
+    guid: 8a46e29aa21d58443b72f0f63edc1244
+  - enabled: 1
+    path: Assets/Scenes/Sumatra/Sumatera - Stage 3.unity
+    guid: 6a23d551ca77c1247bfff1351a331f6c
+  - enabled: 1
+    path: Assets/Scenes/Sumatra/Sumatera - Stage 4.unity
+    guid: b8ef2a2d39fc5b445ab1c45733295331
+  - enabled: 1
+    path: Assets/Scenes/Sumatra/Sumatera - Stage 5.unity
+    guid: 72be42e90f7e0c24b89a1cadb146c6f9
+  - enabled: 1
+    path: Assets/Scenes/Kalimantan/Kalimantan - Stage 1.unity
+    guid: c16cc801b617f274fa2f9a109eb988fc
+  - enabled: 1
+    path: Assets/Scenes/Kalimantan/Kalimantan - Stage 2.unity
+    guid: 4626057ca3d0a6e4db8acbf45b01f149
+  - enabled: 1
+    path: Assets/Scenes/Kalimantan/Kalimantan - Stage 3.unity
+    guid: 36412afed5380ed42a7050c65b655584
+  - enabled: 1
+    path: Assets/Scenes/Kalimantan/Kalimantan - Stage 4.unity
+    guid: c9b5ff1b70b07f44ca7dbff44e0ff42c
+  - enabled: 1
+    path: Assets/Scenes/Kalimantan/Kalimantan - Stage 5.unity
+    guid: 925b270e00f40a2419708c09370c65da
+  - enabled: 1
+    path: Assets/Scenes/jawa/Jawa - Stage 1.unity
+    guid: 12e9f2ac7d1994d42959daf1aa49fd35
+  - enabled: 1
+    path: Assets/Scenes/jawa/Jawa - Stage 2.unity
+    guid: c476dc608a7344244a4d889ef61d4282
+  - enabled: 1
+    path: Assets/Scenes/jawa/Jawa - Stage 3.unity
+    guid: 05dee4b12cbc8cf4a8058386e0aaf26a
+  - enabled: 1
+    path: Assets/Scenes/jawa/Jawa - Stage 4.unity
+    guid: f7d6c283c0e850545b2212ffda09deac
+  - enabled: 1
+    path: Assets/Scenes/jawa/Jawa - Stage 5.unity
+    guid: 6d5e4107476eab04bafbacec105c66fb
+  - enabled: 1
+    path: Assets/Scenes/Sulawesi/Sulawesi - Stage 1.unity
+    guid: 524415822dcdbb440a6729177b0e5200
+  - enabled: 1
+    path: Assets/Scenes/Sulawesi/Sulawesi - Stage 2.unity
+    guid: 4397a8fbb752df2408a9699f581da3a4
+  - enabled: 1
+    path: Assets/Scenes/Sulawesi/Sulawesi - Stage 3.unity
+    guid: 15fc311b61dde3748b442500bbd68f99
+  - enabled: 1
+    path: Assets/Scenes/Sulawesi/Sulawesi - Stage 4.unity
+    guid: 926f0bd210f743740aff85780beaade0
+  - enabled: 1
+    path: Assets/Scenes/Sulawesi/Sulawesi - Stage 5.unity
+    guid: 1a6aefe1d434f0a4ba8eced83028eb77
+  - enabled: 1
+    path: Assets/Scenes/Papua/Papua - Stage 1.unity
+    guid: 800dc91f5dd982146a2dcbc859158860
+  - enabled: 1
+    path: Assets/Scenes/Papua/Papua - Stage 2.unity
+    guid: a331efe843f384747910c0a14d335bde
+  - enabled: 1
+    path: Assets/Scenes/Papua/Papua - Stage 3.unity
+    guid: ab2090bce5470d34fb32aa5c4a5c3bed
+  - enabled: 1
+    path: Assets/Scenes/Papua/Papua - Stage 4.unity
+    guid: acae7d1a0c9853c448654cde3294638b
+  - enabled: 1
+    path: Assets/Scenes/Papua/Papua - Stage 5.unity
+    guid: 826454e9902b0214bb5270e43d37066e
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  m_UseUCBPForAssetBundles: 0

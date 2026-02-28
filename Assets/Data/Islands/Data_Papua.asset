@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea491be7971522747906b25471bfe290, type: 3}
+  m_Name: Data_Papua
+  m_EditorClassIdentifier: Assembly-CSharp::NinuNinu.Systems.IslandData
+  islandName: Papua
+  description: 
+  stageScenes:
+  - Papua - Stage 1
+  - Papua - Stage 2
+  - Papua - Stage 3
+  - Papua - Stage 4
+  - Papua - Stage 5
+  islandIcon: {fileID: 859004513, guid: 49a186162b668b34fa18b35d009dffba, type: 3}

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f99e24c948d4594478af21e268678eab, type: 3}
+  m_Name: Sumatera - Stage 4
+  m_EditorClassIdentifier: Assembly-CSharp::NinuNinu.Systems.DialogueData
+  lines:
+  - characterName: Local Residents
+    side: 1
+    text: '"It''s bad, Ranger! The polluters are back and they brought a friend.
+      Now we have two of them ruining our river!"'
+  - characterName: Local Residents
+    side: 1
+    text: '"Not only that, there are now three pipe leaks upstream. The water is
+      turning pitch black quickly!"'
+  - characterName: Ranger Player
+    side: 0
+    text: '"They think they can win by numbers? No way. I''ll catch them both and
+      plug all the leaks!"'
+  - characterName: Local Residents
+    side: 1
+    text: '"Be careful, Ranger. Your speed is key this time. Save our headwaters!"'

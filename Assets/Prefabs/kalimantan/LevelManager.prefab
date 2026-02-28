@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1261435932643545636
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1108067191517158111}
+  - component: {fileID: 8364127074479052054}
+  - component: {fileID: 5822620192063914259}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1108067191517158111
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261435932643545636}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 20.79376, y: 1, z: 22.20645}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8364127074479052054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261435932643545636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7566b45aad20c704781647a153a66778, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NinuNinu.Systems.LevelManager
+  activeStageLogic: {fileID: 5822620192063914259}
+  timeLimit: 180
+  playerPrefab: {fileID: 2909514953268047119, guid: 550e7de1842c91a4398b4844b3907d9e, type: 3}
+  playerSpawnPoint: {fileID: 0}
+  enemyPrefab: {fileID: 2389569969783500297, guid: c62dea5fb09dc3542b8a9824c1187846, type: 3}
+  enemySpawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  trashPrefab: {fileID: 6461632341767924659, guid: fc196633ab8e62140866f7fe81dfe494, type: 3}
+  contamination: 0
+  maxContamination: 100
+  contaminationSlider: {fileID: 0}
+  timerText: {fileID: 0}
+  interactionUI: {fileID: 0}
+  interactionText: {fileID: 0}
+  victoryPanel: {fileID: 0}
+  gameOverPanel: {fileID: 0}
+  victoryDelay: 2
+--- !u!114 &5822620192063914259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261435932643545636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 878f040eed49b4e46b7d6bd4db4f4118, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NinuNinu.Systems.ForestStageLogic
+  stageDisplayName: testing kalimantan
+  trashPrompt: Pick Up
+  initialTrashCount: 0
+  initialEnemyCount: 2
+  useFog: 1
+  fogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  fogMode: 3
+  fogDensity: 0.02
+  fogStartDistance: 0
+  fogEndDistance: 300
+  replantRecoveryBonus: 5
+  healthyForestColor: {r: 0.2, g: 0.8, b: 0.2, a: 1}
+  deadForestColor: {r: 0.6, g: 0.4, b: 0.2, a: 1}
+  enemyCountText: {fileID: 0}
+  treeCountText: {fileID: 0}

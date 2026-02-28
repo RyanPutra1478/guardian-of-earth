@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f99e24c948d4594478af21e268678eab, type: 3}
+  m_Name: Sumatera - Stage 2
+  m_EditorClassIdentifier: Assembly-CSharp::NinuNinu.Systems.DialogueData
+  lines:
+  - characterName: Local Residents
+    side: 1
+    text: '"Ranger! Things are getting worse. Someone is deliberately dumping chemical
+      waste directly into our river!"'
+  - characterName: Ranger Player
+    side: 0
+    text: '"No wonder the pollution levels have skyrocketed. Where is that person?"'
+  - characterName: Local Residents
+    side: 1
+    text: '"He moves along the riverbank and can damage facilities. You have to stop
+      him (catch him) so he learns his lesson!"'
+  - characterName: Ranger Player
+    side: 0
+    text: '"So besides cleaning the pipes and trash, I also have to do some chasing,
+      right?"'
+  - characterName: Local Residents
+    side: 1
+    text: '"That''s right. Catch him as soon as possible, or this river will be completely
+      destroyed!"'
